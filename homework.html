@@ -91,6 +91,12 @@
       };
 
       changeBg("tomato");
+
+      const editFooterAddress = function (addressName) {
+        let fakeAddressNode = document.getElementsByTagName("address");
+        fakeAddressNode[0].innerText = addressName;
+      };
+      editFooterAddress("10 Berlin, Germany");
     </script>
   </body>
 </html>
