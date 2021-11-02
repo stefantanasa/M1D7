@@ -1,3 +1,10 @@
 img {
   height: 150;
 }
+
+table,
+td,
+tr {
+  border: 2px solid rgb(72, 218, 255);
+  border-collapse: collapse;
+}
