@@ -9,3 +9,6 @@ tr {
   border-collapse: collapse;
   background-color: ;
 }
+.linkClass {
+  color: red;
+}

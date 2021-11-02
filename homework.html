@@ -97,6 +97,14 @@
         fakeAddressNode[0].innerText = addressName;
       };
       editFooterAddress("10 Berlin, Germany");
+
+      const linkStyle = function () {
+        let linkNodes = document.querySelectorAll("a");
+        for (let linkNode of linkNodes) {
+          linkNode.classList.add = "linkClass";
+        }
+      };
+      linkStyle();
     </script>
   </body>
 </html>
